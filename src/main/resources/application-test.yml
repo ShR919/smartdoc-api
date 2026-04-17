@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/smartdoc_test
+    username: smartdoc
+    password: smartdoc
+  ai:
+    openai:
+      api-key: test-key
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
